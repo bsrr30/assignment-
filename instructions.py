@@ -50,7 +50,7 @@ def string_check(question, valid_ans_list):
 
 # Main routine goes here
 
-print(make_statement("Calulator", "!"))
+print(make_statement("Calculator", "!"))
 
 print()
 want_instructions = yes_no_check("Do you want to see the instructions? ")
@@ -58,4 +58,10 @@ print()
 
 if want_instructions == "yes":
     instructions()
+
+like_coffee = string_check("How many questions? (max of 5)", ['1', '2', '3', '4', '5'])
+print(f"You chose {like_coffee} questions")
+like_coffee = string_check("What shape? ", ['cuboid'])
+print(f"You chose {like_coffee}")
+
 

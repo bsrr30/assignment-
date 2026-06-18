@@ -21,10 +21,11 @@ def string_check(question, valid_ans_list):
 
 
 # Main routine goes here
-like_coffee = string_check("How many questions? (max of 5)", ['1' '2' '3' '4' '5'])
-print(f"You chose {like_coffee}")
+like_coffee = string_check("How many questions? (max of 5)", ['1', '2', '3', '4', '5'])
+print(f"You chose {like_coffee} questions")
 like_coffee = string_check("What shape? ", ['cuboid'])
 print(f"You chose {like_coffee}")
+
 
 
 
