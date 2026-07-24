@@ -32,13 +32,12 @@ def instructions():
     print(make_statement("Instructions", "ℹ️"))
 
     print('''
-This is a basic area and perimeter calculator that any user can use.
-It's used to calculate area and perimeter of shapes by the measurements that you submit into the calculator
+This is a area and perimeter calculator. Calculate area or perimeter of shapes by 
+typing a number into the calculator
+To calculate the perimeter of a square, add up all the four sides. To 
+calculate its area, multiply the width and length of the square.
 
-To calculate the perimeter of a square is by using by adding up all the four sides that it has.
-And to calculate its area is by multiplying the width and length of the square.
-
-The list of shapes that are available shapes are: Square, Triangle, Circle, Rectangle
+You can pick from: square, triangle, circle or rectangle
     ''')
 
 # Functions go here
